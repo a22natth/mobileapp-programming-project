@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textViewAbout"
+        android:id="@+id/aboutHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="About us!"
@@ -17,5 +17,15 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginBottom="450dp"/>
 
+    <TextView
+        android:id="@+id/textViewAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutHeader"
+        android:layout_marginBottom="380dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
