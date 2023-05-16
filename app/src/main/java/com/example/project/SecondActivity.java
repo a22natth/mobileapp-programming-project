@@ -10,7 +10,6 @@ import androidx.appcompat.widget.Toolbar;
 
 public class SecondActivity extends Activity {
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,4 +24,6 @@ public class SecondActivity extends Activity {
                 startActivity(intent);
             }
         });
+    }
+
 }
