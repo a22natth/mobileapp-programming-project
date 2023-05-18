@@ -4,13 +4,13 @@
     android:layout_height="70dp"
     android:orientation="horizontal"
     android:padding="10dp"
-    android:textSize="16sp">
+    android:textSize="20sp">
 
     <TextView
         android:id="@+id/title"
         android:text="Hello"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:textSize="20sp"/>
+        android:textSize="16sp"/>
 
 </LinearLayout>
