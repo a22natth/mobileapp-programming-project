@@ -31,7 +31,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        holder.title.setText(items.get(position).getName()+items.get(position));
+        holder.title.setText(items.get(position).getName()+ "  " + items.get(position).getDollars()+"$                 "+ "Produced by:" +items.get(position).getCompany() );
+
     }
 
     @Override
