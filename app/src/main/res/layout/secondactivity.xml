@@ -27,19 +27,19 @@
         android:layout_marginBottom="260dp"
         android:lineSpacingExtra="4sp"
         android:text="Coffee Consumer is a freshly started company with freshly brewed coffee and tea.
-The art of the coffee bean can be traced back to ancient times, where the delicious taste has been appreciated for centuries.
-An old thing in a new world is bound to change, but a simple cup of coffee remains timeless. Our target audience is
-anyone and everyone looking for a rich and tasteful cup of this wonderful caffeinated drink, no matter who you are, where you are,
-or where you're going. This application is for every coffee drinker, created for the purpose of looking at our menu online before potential purchase. Coffee Consumer is right by your side at any given time.
-Sincerely, from a coffee consumer to another. "
+Our target audience is broad and made for anyone looking for a tasteful cup of this wonderful caffeinated drink, no matter who you are, where you are,
+or where you're going. Although this beverage is traditionally associated with people of mature age, the design, content and language is
+kept simple yet familiar so it can reach as many as possible. This application is for every coffee drinker, created for the purpose of looking at our menu online before potential purchase.
+Coffee Consumer is right by your side at any given time. Sincerely, from a coffee consumer to another. "
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="16sp"
         android:typeface="serif"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/aboutHeader" />
+        app:layout_constraintTop_toBottomOf="@+id/aboutHeader"
+        android:layout_marginTop="30dp"/>
 
     <Button
         android:id="@+id/buttonBack"
